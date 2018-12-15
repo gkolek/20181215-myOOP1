@@ -1,3 +1,4 @@
+//str.15
 function returnX() {
     return this.x;
 }
@@ -11,6 +12,7 @@ var boundReturnX = newReturnX.bind(obj)
 console.log(boundReturnX())
 
 boundReturnX() // execution in obj object context , 42
+console.log(boundReturnX())
 console.log(boundReturnX())
 
 
